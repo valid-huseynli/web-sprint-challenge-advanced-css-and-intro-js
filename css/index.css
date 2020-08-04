@@ -137,47 +137,80 @@ button:hover{
 
 
 @media (max-width:500px){
-  
-     a{
-        font-size: 2.5rem;
+    
+    .bio{
+        font-size: 1rem;
+    }
+    h1{
+     font-size: 4rem;
+    }
+    header{
+        display: flex;
+    }
+
+    a{
+        font-size: 1rem;
         margin:0.5rem;
         text-decoration: none;
-       
     }
-     nav span{
-         border-left: 2px solid #626262;
-         display: inline-block;
-         height: 20px;
-         margin: 20px;
-     }
-     .title-container div{
-        width: 100%;
-     } 
-     hr{
-         margin-block-end: 2rem;
-         margin-block-start: -1rm;
-         border-width: 2px;
-         margin-inline-start: 1rem;
-         margin-inline-end: 1rem;
-     }
 
-     .artists-container{
-         display: block;
-         flex-direction: column;
-         align-items: center;
-         border-top: 1px solid #626262;
-         border-width: initial;
-         padding-top: 1rem;
-     }
-     .artist{
-        display: block;
-        align-content: center;
+    nav{
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 1% ;
+    }
+    nav a{
+        color:#626262;
+        font-size: 1.5rem;
+    }
+    nav span{
+        border-left:1px solid #626262;
+        display: inline-block;
+        height: 10px;
+        margin: 10px;
+        font-size: 5rem;
+    }
+    button{
+        font-size: 1rem;
+        border-radius:2px;
+        border:1px solid #626262;
+        box-shadow: 1px 1px 1px #626262;
+
+    }
+
+    .title-container{
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg');		
+        background-position: center;	
+        color: white;	
+        text-align: center;
+        align-items: center;
         width:100%;
-        text-align:center;
+        flex-direction: column;
+        height:50vh;
+    }
+    .title-container hr{
+        width:10%;
+        margin: 10px;
+        display:none;
+    }
+    .artists-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: 1px solid #626262;
+        border-width: initial;
+        padding-top: 1rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .artist{
+        align-content: center;
+        justify-content: center;
+        width: 100%;
     }
     .artist img{
-        width:70%;
-        height: 70%;
+        width:50%;
+        height: 50%;
     }
 }
-     
