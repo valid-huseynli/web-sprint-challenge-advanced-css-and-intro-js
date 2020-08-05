@@ -138,8 +138,11 @@ button:hover{
 
 @media (max-width:500px){
     
-    .bio{
+     .bio{
         font-size: 1rem;
+        font-family: sans-serif;
+        /* font-size: 12px; */
+        text-align: center;
     }
     h1{
      font-size: 4rem;
@@ -153,19 +156,21 @@ button:hover{
         margin:0.5rem;
         text-decoration: none;
     }
-
+ 
     nav{
-        width: 80%;
+        width: 40%;
         display: flex;
         justify-content: space-evenly;
         margin-top: 1% ;
     }
     nav a{
         color:#626262;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        width:20%;
     }
     nav span{
         border-left:1px solid #626262;
+        border-spacing: 100px;
         display: inline-block;
         height: 10px;
         margin: 10px;
@@ -212,5 +217,22 @@ button:hover{
     .artist img{
         width:50%;
         height: 50%;
-    }
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
